@@ -172,3 +172,25 @@
 // }
 
 
+// 16
+
+// function XO(str) {
+//   let arr = str.toLowerCase().split("")
+//   let sumX = 0
+//   let sumO = 0
+//   for (let i = 0; i < arr.length; i++) {
+//   if (arr[i] === "x") {
+//     sumX += 1
+//   } 
+//   if (arr[i] === "o") {
+//     sumO += 1
+//   }
+// }
+//   if (sumX === sumO) {
+//     return true
+//   } else {
+//     return false
+//   }
+// }
+
+
