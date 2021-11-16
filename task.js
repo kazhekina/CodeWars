@@ -98,3 +98,10 @@
 //   }
 
 
+//   9
+  
+//   function square (arg) {
+//     return arg * arg
+//   }
+
+
