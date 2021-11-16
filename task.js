@@ -43,5 +43,24 @@
 // const find = (a, e) => a.indexOf(e) < 0 ? "Not found" : a.indexOf(e)
 
 
+// 5
 
- 
+// const quarterOf = (month) => {
+//   m = Math.ceil(month/3)
+//   switch (m) {
+//   case 1:
+//   return 1
+//   break;
+//   case 2:
+//   return 2
+//   break;
+//   case 3:
+//   return 3
+//   break;
+//   default:
+//   return 4
+//   }
+// }
+// console.log(quarterOf(7))
+
+
