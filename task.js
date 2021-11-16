@@ -247,3 +247,21 @@
 //   }
 //  } 
 
+//  20
+
+// function arrayMadness(a, b) {
+//   let sumA = 0
+//   let sumB = 0
+//   let sum = 0
+//   sumA = a.reduce((sum, elem) => sum+(elem*elem), 0) 
+//   sumB = b.reduce((sum, elem) => sum+(elem*elem*elem), 0) 
+   
+//   if(sumA > sumB){
+//     console.log(sumA, sumB)
+//     return true
+//   } else {
+//     return false
+//   }
+//  }
+//  console.log(arrayMadness([1,3,5,2,4],[2,2,2,2,2,2,2,1]))
+ 
