@@ -194,3 +194,31 @@
 // }
 
 
+// 17
+
+// function maxBall(v0) {
+//   v0 = v0 * 1000 / 3600
+//   let g = 9.81
+//   let t = 0
+//   let h = 0
+//   let maxH = 0
+//   let arr = []
+//   let index = 0
+//   do {
+//     arr.push("(" +(t*10).toFixed(0) + ", " + h.toFixed(3) +")")
+//     // arr.push(h.toFixed(3))
+//     t += 0.1
+//     h = v0 * t - 0.5 * g * t * t  
+//   } while (h > 0)
+//  for (let i = 0; i < arr.length; i++) {
+//    if (arr[i] > maxH) {
+//      maxH = arr[i]
+//      index = arr.indexOf(maxH)
+//    }
+//  }
+//   return arr
+// }
+
+// console.log(maxBall(15))
+
+
