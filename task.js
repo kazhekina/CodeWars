@@ -222,3 +222,18 @@
 // console.log(maxBall(15))
 
 
+// 18
+
+// function rentalCarCost(d) {
+//   let rent = 40
+//   let sum = 0
+//   if (d >= 7) {
+//     sum = (rent * d)-50
+//   } else if (d >= 3 && d < 7){
+//     sum = (rent * d)-20
+//   } else {
+//     sum = (rent * d)
+//   }
+//   return sum 
+// }
+
