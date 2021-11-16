@@ -156,3 +156,19 @@
 //   }
 
 
+//   15
+  
+//   function longest(s1, s2) {
+//     let string = s1 + s2
+//     let arr = string.split("")
+//     let result = [];
+
+//   for (let i = 0; i < arr.length; i++) {
+//     if (!result.includes(arr[i])) {
+//       result.push(arr[i]);
+//     }
+//   }
+//   return result.sort().join("")
+// }
+
+
