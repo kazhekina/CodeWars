@@ -18,3 +18,23 @@
 // }
 
 
+// 3
+
+// function validateCode (code) {
+//   let cod = code.toString()
+//   switch (cod[0]) {
+//   case "1":
+//   return true
+//   break;
+//   case "2":
+//   return true
+//   break;
+//   case "3":
+//   return true
+//   break;
+//   default:
+//   return false
+//   }
+// }
+
+
