@@ -402,3 +402,20 @@
 //      return strObj;
 //   }
 
+//   28
+
+//   let order = (words) => {
+//     let arr = []
+//     words.split(' ').forEach((el, i) => {
+//        let num;
+//        el.split('').forEach(e => {
+//          if(!isNaN(+e)){
+//           num = e
+//          }
+//        })
+//        arr[num-1] = el
+//     })
+//     return arr.join(' ')
+//   }
+
+//   
