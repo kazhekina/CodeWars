@@ -480,3 +480,21 @@
 //     return arr.findIndex(x => ''+x == ''+query)
 //   }
 
+//   31
+
+//   function duplicateEncode(word){
+//     let letters = word.toLowerCase().split('')
+//     return word.toLowerCase().split('').map(el => {
+//       let ltr=0
+//       letters.forEach(e => {
+//         if(e === el){
+//           ltr += 1
+//         }
+//       })
+//       if(ltr > 1){
+//         return ')'
+//       }
+//       return '('
+//     }).join('')
+//   }
+
