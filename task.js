@@ -471,3 +471,12 @@
 //     return results; 
 //   }
 
+//   30
+
+//   var searchArray = function(arr, query) {
+//     if (!Array.isArray(arr) ||
+//         !arr.every(x => Array.isArray(x) && x.length == 2) ||
+//         query.length != 2) throw 'please not again'
+//     return arr.findIndex(x => ''+x == ''+query)
+//   }
+
