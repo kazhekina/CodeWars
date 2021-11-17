@@ -498,3 +498,23 @@
 //     }).join('')
 //   }
 
+//   32
+
+//   function wave(str){
+//     let arr = []
+//     let count = 0;
+//     if(str){
+//     let arrStr = [...str]
+//     arrStr.forEach((el, i) => {
+//         let arrStr2 = [...str]
+//         arrStr2[i] = str[i].toUpperCase()
+//         arr.push(arrStr2.join(''))
+//         if(str[i] === ' '){
+//           arr.splice((i-count), 1)
+//           count +=1
+//         }   
+//     })
+//     arr.join(',')
+//     }
+//     return arr
+//   }
