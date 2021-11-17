@@ -265,3 +265,29 @@
 //  }
 //  console.log(arrayMadness([1,3,5,2,4],[2,2,2,2,2,2,2,1]))
  
+// 21
+
+// function dblLinear(n) {
+//     console.log(n)
+//     let result = [1];
+//     let i = 0;
+//     let count = 0;
+//     while(count <= n){
+//         if(result.hasOwnProperty(i)){
+//             result[y(result[i])] = y(result[i]);
+//             result[z(result[i])] = z(result[i]);
+//             count++;
+//         }
+//         i++;
+//     }
+//     return result.filter(Boolean)[n];
+
+//     function y(x) {
+//         return 2 * x + 1
+//     }
+
+//     function z(x) {
+//         return 3 * x + 1
+//     }
+// }
+
