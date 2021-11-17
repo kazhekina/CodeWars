@@ -308,3 +308,24 @@
 //     return arrPrase.join(' ')
 //   }
 
+//   23
+
+//   function isValidWalk(walk) {
+//     if (walk.length !== 10) {
+//       return false
+//     }
+//     console.log(walk)
+//     const coords = {
+//       'w': 1,
+//       'e': -1,
+//       'n': 2,
+//       's': -2
+//     }
+//     let result = 0;
+//     walk.forEach(el => {
+//       result += coords[el]
+//     })
+//     console.log(result)
+//     return result ? false : true;
+//   }
+
