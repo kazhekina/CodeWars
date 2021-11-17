@@ -344,3 +344,26 @@
 //     return result
 //   }
 
+//   25
+
+//   decodeMorse = function(morseCode){
+//     const a = morseCode.split(' ')
+//     console.log(a)
+//     let result = ''
+//     if (morseCode === '···−−−···') {
+//       result = 'SOS'
+//     } else {
+//       a.forEach((el, i) => {
+//         if (el === '') {
+//           if (a[i + 1] !== ''){
+//             result += ' '
+//           } 
+//         } else {
+//           result += MORSE_CODE[el]
+//         }
+//       })
+//     }
+//     console.log(result.split())
+//     return result.trim()
+//   }
+
