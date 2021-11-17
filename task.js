@@ -291,3 +291,20 @@
 //     }
 // }
 
+// 22
+
+// const pigIt = (phrase) => {
+//     const arrPrase = phrase.split(' ')
+//     arrPrase.forEach((el, i) => {
+//       if (el[0] !== '!' && el[0] !== ',' && el[0] !== '.' && el[0] !== '?') {
+//         const arr = el.split('')
+//         const add = arr[0]
+//         const newArr = arr.splice(1)
+//         newArr.push(add + 'ay')
+//         arrPrase[i] = newArr.join('')
+//       } 
+      
+//     })
+//     return arrPrase.join(' ')
+//   }
+
