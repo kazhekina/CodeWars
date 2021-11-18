@@ -541,3 +541,25 @@
 //     return Math.min(...s.split(' ').map(word => word.length));
 //   }
 
+// 36
+
+//   function DNAStrand(dna){
+//     let output = ''
+//     let arr = dna.split('')
+//     for (let i = 0; i < arr.length; i++ )
+//     switch (arr[i]) {
+//         case 'A':
+//         output += 'T'
+//         break
+//         case 'T':
+//         output += 'A'
+//         break
+//         case 'G':
+//         output += 'C'
+//         break
+//         case 'C':
+//         output += 'G'
+//         break
+//     }
+//     return output
+//   }
