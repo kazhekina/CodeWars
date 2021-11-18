@@ -519,45 +519,19 @@
 //     return arr
 //   }
 
-33
+// 33
 
-function greet(name){
-    if(name === "Johnny") {
-      return "Hello, my love!"
-    } else {
-    return "Hello, " + name + "!"  
-    }
-  }
+// function greet(name){
+//     if(name === "Johnny") {
+//       return "Hello, my love!"
+//     } else {
+//     return "Hello, " + name + "!"  
+//     }
+//   }
 
-  34
+//   34
 
-  function noSpace(x){
-  return x.split(" ").join("")
-  }
+//   function noSpace(x){
+//   return x.split(" ").join("")
+//   }
 
-  35
-
-  function findShort(s){
-    return Math.min(...s.split(' ').map(word => word.length));
-  }
-
-  function DNAStrand(dna){
-    let output = ''
-    let arr = dna.split('')
-    for (let i = 0; i < arr.length; i++ )
-    switch (arr[i]) {
-        case 'A':
-        output += 'T'
-        break
-        case 'T':
-        output += 'A'
-        break
-        case 'G':
-        output += 'C'
-        break
-        case 'C':
-        output += 'G'
-        break
-    }
-    return output
-  }
