@@ -535,3 +535,9 @@
 //   return x.split(" ").join("")
 //   }
 
+//   35
+
+//   function findShort(s){
+//     return Math.min(...s.split(' ').map(word => word.length));
+//   }
+
