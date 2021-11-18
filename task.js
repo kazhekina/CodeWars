@@ -563,3 +563,10 @@
 //     }
 //     return output
 //   }
+
+// 37
+
+// function descendingOrder(n){
+//     let arr = n.toString().split("").sort().reverse().join("")  
+//      return +arr 
+//     }
