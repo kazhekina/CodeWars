@@ -588,3 +588,28 @@
 //     return newArr
 //   }
 //   console.log(twistedSum(12))
+
+// 39
+
+// function number9(n) {
+//     let arr = []
+//     let sum = 0
+//     for (i = 1; i<=n; i++) {
+//       arr.push(i)
+//     }
+//     let newArr = arr.join("").split("")
+    
+//     for (j = 0; j < newArr.length; j++) {
+//       if(+newArr[j] === 9 ){
+//       sum += 1
+//       }
+//     }
+    
+//     return sum
+//   }
+//   console.log(number9(100))
+  
+  
+  
+  
+
