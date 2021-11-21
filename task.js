@@ -570,3 +570,21 @@
 //     let arr = n.toString().split("").sort().reverse().join("")  
 //      return +arr 
 //     }
+
+// 38
+
+// function twistedSum(n) {
+//     let arr = []
+//     let sum = 0
+//     for (i = 1; i<=n; i++) {
+//       arr.push(i)
+//     }
+//     let newArr = arr.join("").split("").reduce((sum, elem) => {
+//       return sum + +elem
+//     }, 0) 
+//     // for (j = 0; j < newArr.length; j++) {
+//     //   sum += +newArr[j]
+//     // }
+//     return newArr
+//   }
+//   console.log(twistedSum(12))
