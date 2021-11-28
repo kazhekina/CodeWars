@@ -612,4 +612,108 @@
   
   
   
+// function number9(n) {
+//     //   let arr = []
+//     //   let sum = 0
+//     //   // for (i = 1; i<=n; i++) {
+//     //   //   arr.push(i)
+//     //   // }
+//     //   // let newArr = arr.join("").split("")
+      
+//     //   // for (j = 0; j < newArr.length; j++) {
+//     //   //   if(+newArr[j] === 9 ){
+//     //   //   sum += 1
+//     //   //   }
+//     //   // }
+      
+//     //   for (let i = 1; i <= n; i++) {
+//     //     arr.push(i)
+//     //   }
+      
+//     //   for (let i = n/2; i <= n; i++) {
+//     //     arr.push(i)
+//     //   }
+      
+//      let currentNumber = 1;
+//      let result = 0;
+      
+//      const calculate = (number) => {
+//        const arr = number.toString().split('')
+//        const res = arr.reduce((prev, current) => {
+//          if(+current === 9 ){
+//            return prev + 1;
+//          }
+//          return prev;
+//         }, 0)
+//        result += res;
+//        if (number !== n) {
+//          return calculate(number + 1)
+//        }
+//        return number;
+       
+//      }
+      
+//       calculate(currentNumber)
+      
+     
+//       // const newArray = newArr.filter(elem => +elem === 9)
+//       // console.log(newArray)
+      
+//       // const result = newArr.reduce((prev, current) => {
+//       //   if (+current === 9) {
+//       //     return prev + 1;
+//       //   }
+//       //   return prev
+//       // }, 0)
+      
+//       return result
+//     }
+//     console.log(number9(565754))
 
+
+// function number9(n) {
+//     const accc = 10000;
+//     const acc = n / accc;
+//     let result = 0;
+    
+  //   for (let j = 0; j < accc; j++) {
+  //     // if(j < 4) {
+  //     //   console.log(11111, acc * j + 1)
+  //     //   console.log(22222, acc * (j + 1))
+  //     // }
+      
+  //     for (let i = acc * j + 1; i<=acc * (j + 1); i++) {
+  //       const arr = i.toString().split('');
+       
+  //       const res = arr.reduce((prev, current) => {
+  //          if(+current === 9 ){
+  //            // if(j < 4) {
+  //            //  console.log(33333, arr)
+  //            // }
+  //            return prev + 1;
+  //          }
+  //          return prev;
+  //         }, 0)
+  //        result += res;
+  //     }
+  //   }    
+
+//   40
+
+//   const permutations = (str = '') => {
+//     if (!!str.length && str.length < 2 ){
+//        return str.split()
+//     }
+//     const arr = [];
+//     for (let i = 0; i < str.length; i++){
+//        let char = str[i]
+//        if (str.indexOf(char) != i)
+//           continue
+//           let remainder = str.slice(0, i) + str.slice(i + 1, str.length)
+//           for (let permutation of permutations(remainder)){
+//              arr.push(char + permutation)
+//           }
+//     }
+//     return arr
+//  }
+//  console.log(permutations("aabb"));
